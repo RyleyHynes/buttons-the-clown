@@ -13,12 +13,12 @@
     "reservations": [
         {
             "id": 1,
-            "parentName": "Karen",
-            "childName": "Sid",
-            "numberAttending": "12",
-            "address": "42 Wallaby Way, Sydney",
-            "date": "2022-05-24",
-            "lengthOfReservation": "6"
+            "parentName": "",
+            "childName": "",
+            "numberAttending": "",
+            "address": "",
+            "resDate": "",
+            "resLength": ""
         }
     ]
 }
