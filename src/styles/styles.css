@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+    /*Brings body to the top of the page */
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.button {
+    background-color: #e94bd2;
+    color: white;
+    width: 9rem;
+    height: 3rem;
+    border: 0.2rem solid rgb(20, 8, 17);
+    border-radius: 8rem;
+    margin-top: 2rem;
+
+}
+
+.form {
+    /*puts a blue background on the form*/
+    background: rgb(103, 234, 119);
+    max-width: 1000px;
+    width: 100%;
+    padding: 3rem 4rem;
+    /* rounds the corners on the form*/
+    border-radius: 10rem;
+    /*without this only half the form shows*/
+    margin-top: 35rem;
+
+}
+
+img {
+    /*Helps center photo*/
+    display: block; 
+    margin-left: auto;
+    margin-right: auto; 
+    /*Makes the image round */
+    border-radius: 20em;
+    /*Without the image with the image is huge */
+    width: 30%;
+}
+
+h1 {
+    padding: 1rem;
+    text-align: center;
+}
+
+.field_parent_name,
+.field_address,
+.field_child_name,
+.field_date,
+.field_attendance,
+.field_length {
+    flex-direction: column;
+}
+
+.serviceRequests {
+    margin-top: 1rem;
+}
+
+li {
+    padding-top: 1rem;
+}

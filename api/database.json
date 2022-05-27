@@ -1,24 +1,88 @@
 {
-    "clowns": [
-        {
-            "id": 1,
-            "name": "Lollipop"
-        },
-        {
-            "id": 2,
-            "name": "Buttons"
-        }
-    ],
-    "completions": [],
-    "reservations": [
-        {
-            "id": 1,
-            "parentName": "",
-            "childName": "",
-            "numberAttending": "",
-            "address": "",
-            "resDate": "",
-            "resLength": ""
-        }
-    ]
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Lollipop"
+    },
+    {
+      "id": 2,
+      "name": "Buttons"
+    }
+  ],
+  "completions": [
+    {
+      "reservationId": null,
+      "clownId": 1,
+      "resDate": 1653608106420,
+      "id": 1
+    },
+    {
+      "reservationId": null,
+      "clownId": 1,
+      "resDate": 1653608109253,
+      "id": 2
+    },
+    {
+      "reservationId": null,
+      "clownId": 1,
+      "resDate": 1653608111636,
+      "id": 3
+    },
+    {
+      "reservationId": null,
+      "clownId": 1,
+      "resDate": 1653608180322,
+      "id": 4
+    },
+    {
+      "reservationId": null,
+      "clownId": 1,
+      "resDate": 1653608596681,
+      "id": 5
+    },
+    {
+      "reservationId": null,
+      "clownId": 1,
+      "resDate": 1653608600130,
+      "id": 6
+    },
+    {
+      "reservationId": 1,
+      "clownId": 1,
+      "resDate": 1653608683882,
+      "id": 7
+    },
+    {
+      "reservationId": 1,
+      "clownId": 2,
+      "resDate": 1653608881550,
+      "id": 8
+    },
+    {
+      "reservationId": 1,
+      "clownId": 1,
+      "resDate": 1653608884100,
+      "id": 9
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "parentName": "Dory",
+      "childName": "Baby Dory",
+      "numberAttending": "202",
+      "address": "123 Python Place",
+      "resDate": "2022-07-23",
+      "resLength": "6"
+    },
+    {
+      "parentName": "Marlin",
+      "childName": "Nemo",
+      "numberAttending": "303",
+      "address": "42 Wallaby Way Sydney",
+      "resDate": "2022-05-24",
+      "resLength": "8",
+      "id": 2
+    }
+  ]
 }
